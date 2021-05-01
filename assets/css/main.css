@@ -1908,7 +1908,7 @@ input, select, textarea {
 /* Wrappers */
 
 	#header-wrapper {
-		padding: 4.5em 0 3em 0;
+		padding: 1.5em 0 2em 0;
 	}
 
 	#features-wrapper {
@@ -1935,6 +1935,7 @@ input, select, textarea {
 
 	#logo {
 		display: inline-block;
+		
 	}
 
 		#logo h1 {
@@ -1966,6 +1967,11 @@ input, select, textarea {
 		right: 0;
 		top: 0;
 		font-size: 0.9em;
+		padding: 0;
+		top: 50%;
+		
+		
+
 	}
 
 		#nav ul {
