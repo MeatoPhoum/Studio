@@ -30,9 +30,9 @@
 						<!-- Nav -->
 							<nav id="nav">
 								<ul>
-									<li class="current"><a href="index.html">ទំព័រដើម</a></li>
+									<li class="current"><a href="#">ទំព័រដើម</a></li>
 									<li>
-										<a href="#">សេវាកម្ម</a>
+										<a href="#features-wrapper">សេវាកម្ម</a>
 										<!--<ul>
 											<li><a href="#">Lorem ipsum dolor</a></li>
 											<li><a href="#">Magna phasellus</a></li>
@@ -48,9 +48,9 @@
 											<li><a href="#">Veroeros feugiat</a></li>
 										</ul>-->
 									</li>
-									<li><a href="left-sidebar.html">សកម្មភាពការងារ</a></li>
-									<li><a href="right-sidebar.html">ទំនាក់ទំនង</a></li>
-									<li><a href="#about_us">អំពីយើង</a></li>
+									<li><a href="#main-wrapper">សកម្មភាពការងារ</a></li>
+									<li><a href="#footer">ទំនាក់ទំនង</a></li>
+									<li><a href="#main-wrapper">អំពីយើង</a></li>
 								</ul>
 							</nav>
 
@@ -344,5 +344,29 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 	</body>
 </html>
