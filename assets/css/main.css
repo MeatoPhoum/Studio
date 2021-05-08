@@ -115,12 +115,14 @@ input, select, textarea {
 		background-position: top left, top left;
 		background-repeat: repeat-x, repeat;
 		background-size: 100% 30em, auto;
-		font-family: 'Nokora', sans-serif;
+		font-family: 'Krasar', FiraSans, Verdana, sans-serif;
+		
 		font-size: 13pt;
 		color: #696969;
 		font-weight: 300;
 		line-height: 2.25em;
 	}
+
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
