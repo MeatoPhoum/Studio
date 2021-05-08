@@ -115,6 +115,7 @@ input, select, textarea {
 @font-face {
     font-family: 'Krasar';
     src: url('../assets/webfonts/Krasar.woff') format('woff');
+	src: url('../assets/webfonts/Krasar.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
