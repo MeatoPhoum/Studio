@@ -105,17 +105,10 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
-/*	
-	@font-face {
-   font-family: Krasar;
-   src: url('assets/webfonts/Krasar.woff') format('woff');
-   src: url('assets/webfonts/Krasar.woff2') format('woff2');
-}
-*/
+
 @font-face {
     font-family: 'Krasar';
     src: url('../webfonts/Krasar.woff') format('woff');
-	src: url('../webfonts/Krasar.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
