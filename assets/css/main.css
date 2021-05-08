@@ -105,6 +105,10 @@ input, select, textarea {
 	*, *:before, *:after {
 		box-sizing: inherit;
 	}
+	@font-face {
+   font-family: Krasar;
+   src: url(assets\webfonts\Krasar.woff);
+}
 
 	body {
 		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0)), url("images/bg01.png");
@@ -1964,7 +1968,7 @@ input, select, textarea {
 			background: #ff4486;
 			color: #fff;
 			border-radius: 6px;
-			font-family: 'Nokora', cursive,'Open Sans', sans-serif,'Oleo Script', serif;
+			font-family: 'Krasar', cursive,'Open Sans', sans-serif,'Oleo Script', serif;
 			font-weight: 400;
 			padding: 0.35em 0.2em 0.55em 0.2em;
 			font-size: 3.25em;
@@ -2520,6 +2524,7 @@ input, select, textarea {
 			h2, h3, h4, h5, h6 {
 				font-size: 13pt;
 				margin: 0 0 1em 0;
+
 			}
 
 		/* Section/Article */
@@ -2679,6 +2684,7 @@ input, select, textarea {
 				#banner h2 {
 					font-size: 2em;
 					margin: 0.75em 0 0.5em 0;
+
 				}
 
 				#banner p {
