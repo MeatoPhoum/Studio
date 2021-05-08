@@ -107,8 +107,8 @@ input, select, textarea {
 	}
 	@font-face {
    font-family: Krasar;
-   src: url(assets\webfonts\Krasar.woff);
-   src: url(assets\webfonts\Krasar.ttf);
+   src: url(assets/webfonts/Krasar.woff);
+   src: url(assets/webfonts/Krasar.ttf);
 }
 
 	body {
